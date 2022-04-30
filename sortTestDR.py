@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr  5 15:28:49 2022
-
-@author: Nikhil Sreedhar
-"""
 import glob
 import os
 import shutil
