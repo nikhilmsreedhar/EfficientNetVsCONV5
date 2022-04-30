@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 31 23:15:02 2022
-
-@author: Nikhil Sreedhar
-"""
-
 import os
 import shutil
 import random
