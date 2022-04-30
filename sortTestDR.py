@@ -23,9 +23,7 @@ def categorize(path):
 
             with open ('retinopathy_solution.csv', 'rt') as file:
                 reader = csv.reader(file)
-                # labelFile = pd.read_csv(file)
                 x = imgList[img].split('\\')[1].split('.')[0]
-                # rx = trainlist[0].split('\\')[1].split('.')[0]
         
                 for row in reader:
                     if x == row[0]:
