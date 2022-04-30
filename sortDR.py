@@ -23,9 +23,7 @@ def categorize(path):
 
             with open ('trainLabels.csv', 'rt') as file:
                 reader = csv.reader(file)
-                # labelFile = pd.read_csv(file)
-                x = imgList[img].split('\\')[1].split('.')[0]
-                # rx = trainlist[0].split('\\')[1].split('.')[0]
+                x = imgList[img].split('\\')[1].split('.')[0]]
         
                 for row in reader:
                     if x == row[0]:
